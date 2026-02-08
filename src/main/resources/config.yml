@@ -1,0 +1,25 @@
+checks:
+  speed:
+    enabled: true
+    max-blocks-per-second: 7.5
+    buffer: 4
+  fly:
+    enabled: true
+    max-air-ticks: 12
+    buffer: 3
+  reach:
+    enabled: true
+    max-reach: 3.4
+    buffer: 3
+  autoclicker:
+    enabled: true
+    max-cps: 16
+    sample-ms: 1000
+    buffer: 3
+alerts:
+  notify-permission: anticheat.admin
+  broadcast-to-console: true
+punishments:
+  kick-on-threshold: true
+  kick-threshold: 8
+  kick-message: "Unfair advantage detected."

@@ -1,0 +1,16 @@
+name: UrMathsTeacherAntiCheat
+main: com.urmathsteacher.anticheat.AntiCheatPlugin
+version: 1.0.0
+api-version: 1.20
+commands:
+  anticheat:
+    description: Manage the anti-cheat plugin.
+    usage: /<command> <reload|status>
+    permission: anticheat.admin
+permissions:
+  anticheat.admin:
+    description: Allows administering the anti-cheat plugin.
+    default: op
+  anticheat.bypass:
+    description: Allows bypassing anti-cheat checks.
+    default: op
